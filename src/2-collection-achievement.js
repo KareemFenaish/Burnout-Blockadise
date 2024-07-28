@@ -7,7 +7,7 @@ const createCollection = async () => {
     name: "Burnout Blockadise Achievements",
     description: "Achievements for Racing simulation demo",
     symbol: "ACH",
-    cover_image: {url: "https://gateway.pinata.cloud/ipfs/QmWm5mPjmWqFvF2wyXbheumBWoEQpWm1f9GqGQfLfBYbDi"},
+    cover_image: {url: "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmZRbmoync4p23TbBzWjYBbC58SDGRLFPT81BPivuoUECc"},
     // NOTICE: activate nesting in order to assign achievements
     permissions: {nesting: {collectionAdmin: true}},
     encodeOptions: {
