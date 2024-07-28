@@ -30,11 +30,27 @@ const createToken = async () => {
         value: nickname,
       },
       {
-        trait_type: "Victories",
+        trait_type: "Distance Traveled",
         value: 0,
       },
       {
-        trait_type: "Defeats",
+        trait_type: "Number of Completed Races",
+        value: 0,
+      },
+      {
+        trait_type: "Downtown Best Time",
+        value: 0.0,
+      },
+      {
+        trait_type: "Total Playtime",
+        value: 0,
+      },
+      {
+        trait_type: "Highest Achieved Speed",
+        value: 0,
+      },
+      {
+        trait_type: "Keys Held",
         value: 0,
       }
     ],
