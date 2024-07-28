@@ -23,65 +23,65 @@ const createCollection = async () => {
 
   // Define achievement conditions
   const achievementConditions = {
-    "Achievement 1": () => {
-      // Check conditions for Achievement 1
+    "Race_Count_1": () => {
+      // Check conditions
       // Return true if conditions are met, false otherwise
       return true;
     },
-    "Achievement 2": () => {
-      // Check conditions for Achievement 2
-      // Return true if conditions are met, false otherwise
-      return false;
-    },
-    "Achievement 3": () => {
-      // Check conditions for Achievement 1
+    "Race_Count_2": () => {
+      // Check conditions
       // Return true if conditions are met, false otherwise
       return true;
     },
-    "Achievement 4": () => {
-      // Check conditions for Achievement 2
-      // Return true if conditions are met, false otherwise
-      return false;
-    },
-    "Achievement 5": () => {
-      // Check conditions for Achievement 1
+    "Race_Count_3": () => {
+      // Check conditions
       // Return true if conditions are met, false otherwise
       return true;
     },
-    "Achievement 6": () => {
-      // Check conditions for Achievement 2
-      // Return true if conditions are met, false otherwise
-      return false;
-    },
-    "Achievement 7": () => {
-      // Check conditions for Achievement 1
+    "Race_Count_4": () => {
+      // Check conditions
       // Return true if conditions are met, false otherwise
       return true;
     },
-    "Achievement 8": () => {
-      // Check conditions for Achievement 2
-      // Return true if conditions are met, false otherwise
-      return false;
-    },
-    "Achievement 9": () => {
-      // Check conditions for Achievement 1
+    "Time_Atk_1": () => {
+      // Check conditions
       // Return true if conditions are met, false otherwise
       return true;
     },
-    "Achievement 10": () => {
-      // Check conditions for Achievement 2
-      // Return true if conditions are met, false otherwise
-      return false;
-    },
-    "Achievement 11": () => {
-      // Check conditions for Achievement 1
+    "Time_Atk_2": () => {
+      // Check conditions
       // Return true if conditions are met, false otherwise
       return true;
     },
-    "Achievement 12": () => {
-      // Check conditions for Achievement 2
+    "Time_Atk_3": () => {
+      // Check conditions
       // Return true if conditions are met, false otherwise
-      return false;
+      return true;
+    },
+    "Time_Atk_4": () => {
+      // Check conditions
+      // Return true if conditions are met, false otherwise
+      return true;
+    },
+    "Top_Spd_1": () => {
+      // Check conditions
+      // Return true if conditions are met, false otherwise
+      return true;
+    },
+    "Top_Spd_2": () => {
+      // Check conditions
+      // Return true if conditions are met, false otherwise
+      return true;
+    },
+    "Top_Spd_3": () => {
+      // Check conditions
+      // Return true if conditions are met, false otherwise
+      return true;
+    },
+    "Top_Spd_4": () => {
+      // Check conditions
+      // Return true if conditions are met, false otherwise
+      return true;
     },
   };
 
@@ -93,18 +93,18 @@ const createCollection = async () => {
 
 const createAchievementTokens = async (sdk, collectionId, achievementConditions) => {
   const achievementData = [
-    { name: "Achievement 1", image: "images/achievement1.png" },
-    { name: "Achievement 2", image: "images/achievement2.png" },
-    { name: "Achievement 3", image: "images/achievement3.png" },
-    { name: "Achievement 4", image: "images/achievement1.png" },
-    { name: "Achievement 5", image: "images/achievement2.png" },
-    { name: "Achievement 6", image: "images/achievement3.png" },
-    { name: "Achievement 7", image: "images/achievement1.png" },
-    { name: "Achievement 8", image: "images/achievement2.png" },
-    { name: "Achievement 9", image: "images/achievement3.png" },
-    { name: "Achievement 10", image: "images/achievement2.png" },
-    { name: "Achievement 11", image: "images/achievement3.png" },
-    { name: "Achievement 12", image: "images/achievement12.png" }
+    { name: "Race_Count_1", image: "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmPaJ24W5T3RfHFvtyWesJcqUPi6UF7F7bf2nRBwssiJW5" },
+    { name: "Race_Count_2", image: "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmQehhZ8YqotpYmoAe4KKkEeTiNH74aC1qsuHjoYXRgD2b" },
+    { name: "Race_Count_3", image: "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmYzmu6SJ4WhGChNV5Rp39UMTNYhb8rrDtReuh3Mmk8YbC" },
+    { name: "Race_Count_4", image: "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmdC5Z1PiYtNn8zLjmvzk7cCMfP8d7uPKEgyMgigTCfez3" },
+    { name: "Time_Atk_1", image: "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmaEGsfG9jQXY2F8bKUCM8MtN8c78ZYR4AGQAi5jgrruNU" },
+    { name: "Time_Atk_2", image: "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmQUsHMHcvvP8vbjeHYqMhMB8o3Ad2g1ncvQsfaBLumxis" },
+    { name: "Time_Atk_3", image: "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmSWYTSSDHSUDLTBkpo862sxWvbKwe8eRNhkeGSG9AB96c" },
+    { name: "Time_Atk_4", image: "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmYQTSkLdhFViyxS5kBkueGjxyFFyLrbnAgb7rhVLZaLEf" },
+    { name: "Top_Speed_1", image: "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmZMo9BRUzmyktf5XMqk7Li58sXhQbJXLkMHoFW4tPj4Ki" },
+    { name: "Top_Speed_2", image: "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmdU3vaeNLmJguL2VML5BSXFidVnVQWYex2eaDsDd3jvYP" },
+    { name: "Top_Speed_3", image: "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmT9rENG5GRhiPGtgjELGezNuipGj5Rjs9JvKBFHBA86gE" },
+    { name: "Top_Speed_4", image: "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmZMrLoc4ff4DdJxMivEdZNFpcANMGBETgXw4JUf3FyAb6" }
   ];
 
   for (const achievement of achievementData) {
@@ -119,7 +119,10 @@ const createAchievementTokens = async (sdk, collectionId, achievementConditions)
             trait_type: "Name",
             value: achievement.name,
           },
-          // Add any additional attributes for the achievement
+          {
+            trait_type: "Description",
+            value: "Exchange for 1 key in the in-game trade portal",
+          },
         ],
       });
 
