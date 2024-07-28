@@ -13,7 +13,7 @@ const createCollection = async () => {
     name: "Burnout Blockadise",
     description: "Blockchain Racing Drivers",
     symbol: "DRIVER",
-    cover_image: {url: "images/burnoutpfp.png"},
+    cover_image: {url: "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmVJLDBoUyJvciLeGQeMNYkY1huLqPjUkUNzxu6LUHLryM"},
     // NOTICE: activate nesting for collection admin in order to assign achievements
     permissions: {nesting: {collectionAdmin: true}},
     encodeOptions: {

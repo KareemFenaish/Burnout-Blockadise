@@ -16,9 +16,17 @@ const createToken = async () => {
   const {account, sdk} = await connectSdk();
 
   // Get pseudo-random car image for fun
-  const tokenImage = getRandomInt(2) === 0
-    ? "https://gateway.pinata.cloud/ipfs/QmfWKy52e8pyH1jrLu4hwyAG6iwk6hcYa37DoVe8rdxXwV"
-    : "https://gateway.pinata.cloud/ipfs/QmNn6jfFu1jE7xPC2oxJ75kY1RvA2tz9bpQDsqweX2kDig"
+  const imageLinks = [
+    "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmTPRGya7Cv8jD1REgqw49TVk15ME83wNWGrr3MiLAa4Gg",
+    "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmZoqDfHijxLJucw3DoHM8pnTPQ33N6seUfY9n9j4JyuFF",
+    "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmWLS8uCVsG2k27oWnkLFcCVSRrhdH1ByWTTsKW9htnTuC",  // Pexels Image
+    "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmbqM42anwxtyJcdZwEuJ2aTiErLzDJJ3hfVJhxUnDY4A4",
+    "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmSQi7AhvnEC3yxeH3rkXNWhQQUD2dyyjdq52737AuXGdE", 
+    "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/Qmehi3inZD5iqde6RWH77jXtci4vY8Zef9dFrLXC8RsFZe", // Lorem Picsum
+    // Add more image links here
+  ];
+  
+  const tokenImage = imageLinks[Math.floor(Math.random() * imageLinks.length)];
 
   const tokenTx = await sdk.token.createV2({
     collectionId,
