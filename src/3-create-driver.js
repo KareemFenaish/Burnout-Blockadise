@@ -19,7 +19,7 @@ const createToken = async () => {
   const imageLinks = [
     "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmTPRGya7Cv8jD1REgqw49TVk15ME83wNWGrr3MiLAa4Gg",
     "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmZoqDfHijxLJucw3DoHM8pnTPQ33N6seUfY9n9j4JyuFF",
-    "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmWLS8uCVsG2k27oWnkLFcCVSRrhdH1ByWTTsKW9htnTuC",  // Pexels Image
+    "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmWLS8uCVsG2k27oWnkLFcCVSRrhdH1ByWTTsKW9htnTuC", // Pexels Image
     "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmbqM42anwxtyJcdZwEuJ2aTiErLzDJJ3hfVJhxUnDY4A4",
     "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/QmSQi7AhvnEC3yxeH3rkXNWhQQUD2dyyjdq52737AuXGdE", 
     "https://rose-adjacent-koi-133.mypinata.cloud/ipfs/Qmehi3inZD5iqde6RWH77jXtci4vY8Zef9dFrLXC8RsFZe", // Lorem Picsum
